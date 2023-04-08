@@ -1,0 +1,18 @@
+1 Criar rota Login
+2 Criar um index para Login
+3 Criar formulario de Login
+4 Criar rota para autenticar
+5 Criar função autenticar
+5.1 Pegar dados com o request->only
+5.2 Utilizar o metodo Auth::attempt() para 
+tentar Logar Usuario, ele retorna um true
+5.3 caso usuario incorreto enviar através do redirect 
+uma mensagem de erro com o withErros()
+5.4 caso usuario esteja autenticado redirencionar para
+a pagina principal.
+6 Criar uma subview com para exibir o erro de Login
+7 importar subview no formulario de login 
+com o @includs() e passar um array ['erros' => $erros] 
+como parametro
+8 adicionar meadlware
+
